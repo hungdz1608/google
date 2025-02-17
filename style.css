@@ -1,0 +1,307 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    display: flex;
+    background-color: #202124;
+    flex-direction: column;
+    align-items: center;
+
+    
+    
+}
+#head-right{
+
+    font-size: 13px;
+    font-weight: 400px;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 10px; 
+}
+#head-right #gmail{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+#head-right #gmail:hover{
+    text-decoration: underline;
+}
+#head-right #picture{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+#head-right #picture:hover{
+    text-decoration: underline;
+}
+#head-right #app{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+#head-right #app:hover{
+    background-color: #2D2E31;
+    width: 38px;
+    height: 38px;
+    border-radius: 20px;
+}
+#login{
+    width: 92px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#C2E7FF;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#login:hover{
+    background-color: rgb(214, 189, 189);
+}
+img{
+    margin: 60px 0 2px 0;
+    width: 272px;
+    height: 92px;
+}
+#search_2{
+    margin: 25px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    height: 46px;
+    align-items: center;
+    background-color: #4D5156;
+    color: white;
+    border: none;
+    border-radius: 40px;
+}
+#search_2 #thanh-search{
+    color: white;
+    background-color: #4D5156;
+}
+#search_2 #thanh-search:focus{
+    color:  white;
+}
+#search_2 #thanh-search:hover{
+    background-color: #5F6368;
+}
+#search_2:hover{
+    background-color: #5F6368;
+}
+#search-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    padding: 10px;
+}
+#thanh-search{
+    width: 403px;
+    height: 46px;
+    border-radius: none;
+    border: none;
+    outline: none;
+}
+#search_1{
+    width: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#keyboard_1{
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mic_1{
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#photo_1{
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#below-search{
+    margin: 15px 0 -4px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px
+}
+#below-search #left{
+    margin: 0 -8;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #303134;
+    color: white;
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#below-search #left:hover{
+    margin: 12px 0;
+    border: 2px solid #434549;
+}
+#below-search #right{
+    margin: 0 -8;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #303134;
+    color: white;
+    width: 220px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+#below-search #right:hover{
+    margin: 12px 0;
+    border: 2px solid #434549;
+}
+#below{
+    margin: 0 0 230px 0;
+    font-size: 13px;
+    font-weight: 540;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    gap: 7px;
+}
+#below #below_1{
+    color: #aca9a9;
+}
+#below #below_2{
+    cursor: pointer;
+    color: #207CDB;
+}
+#below #below_2:hover{
+    text-decoration: underline;
+}
+#below #below_3{
+    cursor: pointer;
+    color: #207CDB;
+}
+#below #below_3:hover{
+    text-decoration: underline;
+}
+#below #below_4{
+    cursor: pointer;
+    color: #207CDB;
+}
+#below #below_4:hover{
+    text-decoration: underline;
+}
+#languge{
+    padding: 0 0 0 20px;
+    display: flex;
+    justify-content:left;
+    align-items: end;
+    width: 1516px;
+    height: 45px;
+    background-color: #171717;
+    border-bottom: 3px solid #222324;
+    color: white;
+}
+#last{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 0 0 20px;
+    width: 1516px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    gap: 700px;
+    background-color: #171717;
+}
+#last-left{
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+
+}
+#last-right{
+    margin: 0 0 0 0px;
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+}
+#gioiThieu{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+#gioiThieu:hover{
+    text-decoration: underline;
+}
+#quangCao{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+#quangCao:hover{
+    text-decoration: underline;
+}
+#doanhNghiep{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+#doanhNghiep:hover{
+    text-decoration: underline;
+}
+#howToWork{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+#howToWork:hover{
+    text-decoration: underline;
+}
+#security{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+#security:hover{
+    text-decoration: underline;
+}
+#dieuKhoan{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+#dieuKhoan:hover{
+    text-decoration: underline;
+}
+#setting{
+    cursor: pointer;
+    color: white;
+}
+#setting:hover{
+    text-decoration: underline;
+}
