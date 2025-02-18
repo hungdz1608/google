@@ -146,7 +146,6 @@ img{
     align-items: center;
     justify-content: center;
     gap: 10px;
-    box-sizing: border-box;
 }
 #below-search #left{
     margin: 0 -8;
@@ -160,6 +159,8 @@ img{
     height: 30px;
     border-radius: 5px;
     cursor: pointer;
+    box-sizing: border-box;
+
 }
 #below-search #left:hover{
     margin: 12px 0;
@@ -177,6 +178,7 @@ img{
     height: 30px;
     border-radius: 5px;
     cursor: pointer;
+    box-sizing: border-box;
     
 }
 #below-search #right:hover{
