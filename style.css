@@ -95,6 +95,9 @@ img{
 #search_2:hover{
     background-color: #5F6368;
 }
+#search_2:hover #thanh-search{
+    background-color: #5F6368;
+}
 #search-left{
     display: flex;
     align-items: center;
